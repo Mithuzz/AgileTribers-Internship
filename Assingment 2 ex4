@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Name and Age Table</title>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>David</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>32</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th colspan="1">Average Age:</th>
+      <td id="averageAge"></td>
+    </tr>
+  </tfoot>
+</table>
+
+<script>
+  // Calculate the average age
+  const ageCells = document.querySelectorAll('tbody td:nth-child(2)');
+  let totalAge = 0;
+  ageCells.forEach(cell => {
+    totalAge += parseInt(cell.textContent);
+  });
+  const averageAge = totalAge / ageCells.length;
+
+  // Display the average age in the table footer
+  document.getElementById('averageAge').textContent = averageAge.toFixed(2); // Display with 2 decimal places
+</script>
+
+</body>
+</html>

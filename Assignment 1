@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Fashion Store</title>
+</head>
+<body>
+
+  <h1><b>Welcome to Our Online Fashion Store!</b></h1>
+
+  <hr>
+
+  <h2><u>Clothing</u></h2>
+  <ul>
+    <li><big><b>T-Shirts</b></big></li>
+    <li><i>Jeans</i></li>
+    <li><small>Dresses</small></li>
+    <li>Shirts</li>
+  </ul>
+  <p>
+    Shop for Clothing on:
+    <a href="https://www.amazon.in/clothing/s?k=clothing" target="_blank"><b>Amazon</b></a> |
+    <a href="https://www.flipkart.com/clothing-and-accessories/pr?sid=clo&otracker=nmenu_sub_Women%27s%20Clothing_0_0" target="_blank"><i>Flipkart</i></a> |
+    <a href="https://www.meesho.com/clothing/m" target="_blank"><small>Meesho</small></a>
+  </p>
+
+  <hr>
+
+  <h3>Footwear</h3>
+  <ol>
+    <li>Sneakers</li>
+    <li>Sandals</li>
+    <li>Boots</li>
+    <li>Formal Shoes</li>
+  </ol>
+  <p>
+    Buy Footwear from:
+    <a href="https://www.amazon.in/footwear/s?k=footwear" target="_blank"><u>Amazon</u></a> |
+    <a href="https://www.flipkart.com/footwear/pr?sid=osp&otracker=nmenu_sub_Men%27s%20Footwear_0_0" target="_blank"><b>Flipkart</b></a> |
+    <a href="https://www.meesho.com/footwear/m" target="_blank"><i>Meesho</i></a>
+  </p>
+
+  <hr>
+
+  <h4>Accessories</h4>
+  <ul>
+    <li>Watches</li>
+    <li>Bags</li>
+    <li>Sunglasses</li>
+    <li>Jewellery</li>
+  </ul>
+  <p>
+    Explore Accessories on:
+    <a href="https://www.amazon.in/accessories/s?k=accessories" target="_blank">Amazon</a> |
+    <a href="https://www.flipkart.com/fashion/accessories/pr?sid=clo,ash" target="_blank">Flipkart</a> |
+    <a href="https://www.meesho.com/accessories/m" target="_blank">Meesho</a>
+  </p>
+
+  <hr>
+
+  <p>Thank you for visiting our store!</p>
+
+</body>
+</html>

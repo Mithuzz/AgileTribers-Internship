@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Company Details</title>
+</head>
+<body>
+
+<h2>Company Details</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Acme Corp</td>
+      <td>(123) 456-7890</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>Globex Industries</td>
+      <td>(987) 654-3210</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Initech</td>
+      <td>(555) 123-4567</td>
+      <td>Australia</td>
+    </tr>
+    <tr>
+      <td>Umbrella Corporation</td>
+      <td>(111) 222-3333</td>
+      <td>United Kingdom</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
